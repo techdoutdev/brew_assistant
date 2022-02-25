@@ -1,6 +1,6 @@
 {
     "name": "brew_assistant",
-    "description": "A Node-RED Project designed to be a brewer assistant.",
+    "description": "A Node-RED home brewer assistant",
     "version": "0.1.0",
     "dependencies": {},
     "node-red": {
