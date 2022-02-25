@@ -1,1 +1,3245 @@
-[]
+[
+    {
+        "id": "9e8c78722d3d5311",
+        "type": "tab",
+        "label": "Sensors",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e45b55d4efe82066",
+        "type": "tab",
+        "label": "Settings",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "bec9915179276547",
+        "type": "tab",
+        "label": "Visuals",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4227215c53f7bfbd",
+        "type": "tab",
+        "label": "Notifications",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "778702b6ac07d38e",
+        "type": "tab",
+        "label": "Logging",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d1a4abfd83fb357b",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "adda516565437f02",
+        "type": "ui_group",
+        "name": "Mash Lauter Tun",
+        "tab": "d1a4abfd83fb357b",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3894c72c1c70a5c4",
+        "type": "ui_group",
+        "name": "Brew Kettle",
+        "tab": "d1a4abfd83fb357b",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e42d20a10f8110d3",
+        "type": "ui_group",
+        "name": "Actions",
+        "tab": "d1a4abfd83fb357b",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "da89df55c17f90be",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "true",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "271b60bfccf532fb",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "b3dce1cd2ec253e3",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "a8a01b1f49d0609f",
+        "type": "ui_group",
+        "name": "Brew Kettle",
+        "tab": "b3dce1cd2ec253e3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5136de54abde4a74",
+        "type": "ui_group",
+        "name": "Mash Lauter Tun",
+        "tab": "b3dce1cd2ec253e3",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f06baafe10c5b26b",
+        "type": "ui_group",
+        "name": "Actions",
+        "tab": "b3dce1cd2ec253e3",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "21c2f117d37e21e9",
+        "type": "inject",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "70561ecb4d24d3d5",
+                "f67d76e1ae6068b6"
+            ]
+        ]
+    },
+    {
+        "id": "6ec984716b4e5865",
+        "type": "smooth",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 620,
+        "y": 80,
+        "wires": [
+            [
+                "d88d7e9c7130af17"
+            ]
+        ]
+    },
+    {
+        "id": "5c242c3d61c8ca5d",
+        "type": "sensor-ds18b20",
+        "z": "9e8c78722d3d5311",
+        "name": "bk",
+        "topic": "",
+        "sensorid": "28-021091777506",
+        "timer": "5",
+        "repeat": false,
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "0f67e1295e409dbe"
+            ]
+        ]
+    },
+    {
+        "id": "d88d7e9c7130af17",
+        "type": "unit-converter",
+        "z": "9e8c78722d3d5311",
+        "category": "temperature",
+        "inputUnit": "C",
+        "outputUnit": "F",
+        "inputField": "payload",
+        "outputField": "payload",
+        "inputFieldType": "msg",
+        "outputFieldType": "msg",
+        "roundOutputField": true,
+        "outputFieldDecimals": "1",
+        "name": "C to F",
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "d9b66be233cddd1d"
+            ]
+        ]
+    },
+    {
+        "id": "d9b66be233cddd1d",
+        "type": "change",
+        "z": "9e8c78722d3d5311",
+        "name": "Offset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload+$globalContext(topic&'_temp_offset')",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 160,
+        "wires": [
+            [
+                "b5d0f5c66c2ef6df",
+                "7cb980d83e52e86d",
+                "abd3cadfe5443838"
+            ]
+        ]
+    },
+    {
+        "id": "70561ecb4d24d3d5",
+        "type": "switch",
+        "z": "9e8c78722d3d5311",
+        "name": "BK on?",
+        "property": "bk_enabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 260,
+        "y": 100,
+        "wires": [
+            [
+                "5c242c3d61c8ca5d"
+            ]
+        ]
+    },
+    {
+        "id": "b5d0f5c66c2ef6df",
+        "type": "link out",
+        "z": "9e8c78722d3d5311",
+        "name": "Settings/UI",
+        "mode": "link",
+        "links": [
+            "02b9360d83433d63",
+            "ef07655009f01769",
+            "3ef18e16fe126ccd",
+            "9923d4ed77e15775"
+        ],
+        "x": 915,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7cb980d83e52e86d",
+        "type": "link out",
+        "z": "9e8c78722d3d5311",
+        "name": "Logging",
+        "mode": "link",
+        "links": [
+            "3377114f78347be5",
+            "0c496f3499583176"
+        ],
+        "x": 915,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "abd3cadfe5443838",
+        "type": "link out",
+        "z": "9e8c78722d3d5311",
+        "name": "Notifications",
+        "mode": "link",
+        "links": [
+            "a0563d48bbaf85ef",
+            "542d465259983779"
+        ],
+        "x": 915,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f67d76e1ae6068b6",
+        "type": "switch",
+        "z": "9e8c78722d3d5311",
+        "name": "MLT on?",
+        "property": "mlt_enabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "b66bcabc9be2249a"
+            ]
+        ]
+    },
+    {
+        "id": "b66bcabc9be2249a",
+        "type": "sensor-ds18b20",
+        "z": "9e8c78722d3d5311",
+        "name": "mlt",
+        "topic": "",
+        "sensorid": "28-020a91771e8f",
+        "timer": "5",
+        "repeat": false,
+        "x": 390,
+        "y": 360,
+        "wires": [
+            [
+                "24cd7e38e533c9f8"
+            ]
+        ]
+    },
+    {
+        "id": "ab23f0e9d4409847",
+        "type": "smooth",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "property": "payload",
+        "action": "mean",
+        "count": "5",
+        "round": "",
+        "mult": "single",
+        "reduce": false,
+        "x": 620,
+        "y": 360,
+        "wires": [
+            [
+                "4ded9d1623b9f5cb"
+            ]
+        ]
+    },
+    {
+        "id": "4ded9d1623b9f5cb",
+        "type": "unit-converter",
+        "z": "9e8c78722d3d5311",
+        "category": "temperature",
+        "inputUnit": "C",
+        "outputUnit": "F",
+        "inputField": "payload",
+        "outputField": "payload",
+        "inputFieldType": "msg",
+        "outputFieldType": "msg",
+        "roundOutputField": true,
+        "outputFieldDecimals": "1",
+        "name": "C to F",
+        "x": 610,
+        "y": 400,
+        "wires": [
+            [
+                "1c36138d361789df"
+            ]
+        ]
+    },
+    {
+        "id": "1c36138d361789df",
+        "type": "change",
+        "z": "9e8c78722d3d5311",
+        "name": "Offset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload+$globalContext(topic&'_temp_offset')",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 610,
+        "y": 440,
+        "wires": [
+            [
+                "b5d0f5c66c2ef6df",
+                "7cb980d83e52e86d",
+                "abd3cadfe5443838"
+            ]
+        ]
+    },
+    {
+        "id": "0f67e1295e409dbe",
+        "type": "switch",
+        "z": "9e8c78722d3d5311",
+        "name": "Error Check",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 40,
+        "wires": [
+            [
+                "6ec984716b4e5865"
+            ],
+            [
+                "8289c79ce8a32429"
+            ]
+        ]
+    },
+    {
+        "id": "7bded90576cdc5aa",
+        "type": "rpi-gpio out",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "pin": "4",
+        "set": "",
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 330,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "4ada14d1e9f6bfea",
+        "type": "inject",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 190,
+        "y": 740,
+        "wires": [
+            [
+                "7bded90576cdc5aa"
+            ]
+        ]
+    },
+    {
+        "id": "262394b96da55b72",
+        "type": "inject",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 190,
+        "y": 800,
+        "wires": [
+            [
+                "7bded90576cdc5aa"
+            ]
+        ]
+    },
+    {
+        "id": "3b8de1264a874795",
+        "type": "trigger",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "op1": "",
+        "op2": "0",
+        "op1type": "nul",
+        "op2type": "num",
+        "duration": "6",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 500,
+        "y": 740,
+        "wires": [
+            [
+                "63fd6e6cb3acb038",
+                "96ece016eb657163"
+            ]
+        ]
+    },
+    {
+        "id": "63fd6e6cb3acb038",
+        "type": "trigger",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "op1": "",
+        "op2": "1",
+        "op1type": "nul",
+        "op2type": "num",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 500,
+        "y": 800,
+        "wires": [
+            [
+                "96ece016eb657163"
+            ]
+        ]
+    },
+    {
+        "id": "96ece016eb657163",
+        "type": "debug",
+        "z": "9e8c78722d3d5311",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "24cd7e38e533c9f8",
+        "type": "switch",
+        "z": "9e8c78722d3d5311",
+        "name": "Error Check",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "istype",
+                "v": "number",
+                "vt": "number"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 320,
+        "wires": [
+            [
+                "ab23f0e9d4409847"
+            ],
+            [
+                "8289c79ce8a32429"
+            ]
+        ]
+    },
+    {
+        "id": "fdd3a3897c759a39",
+        "type": "comment",
+        "z": "9e8c78722d3d5311",
+        "name": "Preliminary GPIO reset logic",
+        "info": "",
+        "x": 400,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "978695298821ca4c",
+        "type": "link out",
+        "z": "9e8c78722d3d5311",
+        "name": "Error",
+        "mode": "link",
+        "links": [
+            "20c44f358f3074ad"
+        ],
+        "x": 1115,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8289c79ce8a32429",
+        "type": "change",
+        "z": "9e8c78722d3d5311",
+        "name": "Add Error Context",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Invalid sensor data received. Check probe connection.",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "mlt",
+                "fromt": "str",
+                "to": "Mash Tun Probe Error",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "topic",
+                "pt": "msg",
+                "from": "bk",
+                "fromt": "str",
+                "to": "Kettle Probe Error",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 80,
+        "wires": [
+            [
+                "978695298821ca4c"
+            ]
+        ]
+    },
+    {
+        "id": "c0cdfd8210fdf8c1",
+        "type": "ui_numeric",
+        "z": "e45b55d4efe82066",
+        "name": "MLT Temp Offset",
+        "label": "Temperature Offset (°F)",
+        "tooltip": "",
+        "group": "5136de54abde4a74",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "mlt_temp_offset",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 590,
+        "y": 840,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "0aa3ff4428ac73fa",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Save vars",
+        "func": "global.set(msg.topic,msg.payload);\nreturn null;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "487c3e6f1cd2d2db",
+        "type": "ui_numeric",
+        "z": "e45b55d4efe82066",
+        "name": "BK Temp Offset",
+        "label": "Temperature Offset (°F)",
+        "tooltip": "",
+        "group": "a8a01b1f49d0609f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "bk_temp_offset",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 580,
+        "y": 800,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "a6eaf116213baf4d",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "mlt_temp_offset",
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "5bf9de33a757d0d5"
+            ]
+        ]
+    },
+    {
+        "id": "70f6bdb5cc633da1",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "bk_temp_offset",
+        "x": 170,
+        "y": 800,
+        "wires": [
+            [
+                "febeac052c4e6f8f"
+            ]
+        ]
+    },
+    {
+        "id": "b35fe20e2869b064",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value: Off",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 140,
+        "wires": [
+            [
+                "8613341052617306",
+                "23a4db361a6dc313",
+                "5a4d39cead61955f",
+                "020522491423faab"
+            ]
+        ]
+    },
+    {
+        "id": "42cecc6a0a95f087",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Set Gauge Colors",
+        "func": "\nmsg = {ui_control:{seg1:(msg.payload-global.get('mlt_temp_threshold')),\n                   seg2:(msg.payload+global.get('mlt_temp_threshold'))\n                  }\n      };\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 460,
+        "wires": [
+            [
+                "6826e7fe1b4d30a1"
+            ]
+        ]
+    },
+    {
+        "id": "6826e7fe1b4d30a1",
+        "type": "link out",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "18597042e1fe0e92",
+            "3a3ca0c57860a866",
+            "7d0ad61ef26f49e2"
+        ],
+        "x": 1175,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "07555a929cf5df0c",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "mlt_temp_target",
+        "payloadType": "global",
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "8a2cc5de0d0d9863"
+            ]
+        ]
+    },
+    {
+        "id": "8a2cc5de0d0d9863",
+        "type": "ui_text_input",
+        "z": "e45b55d4efe82066",
+        "name": "MLT Target Temp",
+        "label": "Target Temperature",
+        "tooltip": "",
+        "group": "adda516565437f02",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "mlt_temp_target",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "42cecc6a0a95f087",
+                "0aa3ff4428ac73fa",
+                "82e4ed2b4b7215c3"
+            ]
+        ]
+    },
+    {
+        "id": "2f598e7ff0290b97",
+        "type": "link out",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "8877dd27c545eadc",
+            "e37f74ac1b9fab03",
+            "9868ef095adc4ff8"
+        ],
+        "x": 695,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "652d05d5463062b0",
+        "type": "ui_switch",
+        "z": "e45b55d4efe82066",
+        "name": "MLT Nofifications",
+        "label": "Enable Notifications",
+        "tooltip": "",
+        "group": "5136de54abde4a74",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "mlt_notifications",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 570,
+        "y": 340,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "23a4db361a6dc313",
+        "type": "ui_switch",
+        "z": "e45b55d4efe82066",
+        "name": "MLT Logging",
+        "label": "Enable Logging",
+        "tooltip": "",
+        "group": "5136de54abde4a74",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "mlt_logging",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 550,
+        "y": 200,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "8613341052617306",
+        "type": "ui_switch",
+        "z": "e45b55d4efe82066",
+        "name": "MLT On/Off",
+        "label": "On/Off",
+        "tooltip": "",
+        "group": "adda516565437f02",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "mlt_enabled",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [
+                "2f598e7ff0290b97",
+                "91e46c180ba77fe5",
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "f42960ddc0c6c43b",
+        "type": "ui_switch",
+        "z": "e45b55d4efe82066",
+        "name": "BK Nofifications",
+        "label": "Enable Notifications",
+        "tooltip": "",
+        "group": "a8a01b1f49d0609f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "bk_notifications",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 560,
+        "y": 300,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "020522491423faab",
+        "type": "ui_switch",
+        "z": "e45b55d4efe82066",
+        "name": "BK Logging",
+        "label": "Enable Logging",
+        "tooltip": "",
+        "group": "a8a01b1f49d0609f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "bk_logging",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 550,
+        "y": 160,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "5a4d39cead61955f",
+        "type": "ui_switch",
+        "z": "e45b55d4efe82066",
+        "name": "BK On/Off",
+        "label": "On/Off",
+        "tooltip": "",
+        "group": "3894c72c1c70a5c4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "bk_enabled",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": true,
+        "className": "",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "b0b4fa97444c0e26",
+                "010a6150a7a649bf",
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "12c46a0971772c2f",
+        "type": "ui_text_input",
+        "z": "e45b55d4efe82066",
+        "name": "BK Target Temp",
+        "label": "Target Temperature",
+        "tooltip": "",
+        "group": "3894c72c1c70a5c4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "bk_temp_target",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 560,
+        "y": 480,
+        "wires": [
+            [
+                "0c2c6b0505c3b9c1",
+                "0aa3ff4428ac73fa",
+                "0824aa012a43a13f"
+            ]
+        ]
+    },
+    {
+        "id": "0c2c6b0505c3b9c1",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Set Gauge Colors",
+        "func": "\nmsg = {ui_control:{seg1:(msg.payload-global.get('bk_temp_threshold')),\n                   seg2:(msg.payload+global.get('bk_temp_threshold'))\n                  }\n      };\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 420,
+        "wires": [
+            [
+                "aaecdfd963dbdf5e"
+            ]
+        ]
+    },
+    {
+        "id": "47a4a080c9908b8c",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "bk_temp_target",
+        "payloadType": "global",
+        "x": 170,
+        "y": 480,
+        "wires": [
+            [
+                "12c46a0971772c2f"
+            ]
+        ]
+    },
+    {
+        "id": "aaecdfd963dbdf5e",
+        "type": "link out",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "43b90c1be587fe73",
+            "9a77b24d3ba7177e",
+            "73b18a1e3bb39b2e"
+        ],
+        "x": 1175,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b0b4fa97444c0e26",
+        "type": "link out",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "0dd0d61c03a2f11d",
+            "ab74d5bfd0da635a"
+        ],
+        "x": 695,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "91e46c180ba77fe5",
+        "type": "change",
+        "z": "e45b55d4efe82066",
+        "name": "Set Target Temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "mlt_temp_target",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 100,
+        "wires": [
+            [
+                "42cecc6a0a95f087"
+            ]
+        ]
+    },
+    {
+        "id": "010a6150a7a649bf",
+        "type": "change",
+        "z": "e45b55d4efe82066",
+        "name": "Set Target Temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "bk_temp_target",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 60,
+        "wires": [
+            [
+                "0c2c6b0505c3b9c1"
+            ]
+        ]
+    },
+    {
+        "id": "5bf9de33a757d0d5",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Initiate Var if Needed",
+        "func": "msg.payload = global.get(msg.topic);\n\nif (typeof msg.payload != 'number'){\n    global.set(msg.topic,0);\n    msg.payload = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 840,
+        "wires": [
+            [
+                "c0cdfd8210fdf8c1"
+            ]
+        ]
+    },
+    {
+        "id": "febeac052c4e6f8f",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Initiate Var if Needed",
+        "func": "msg.payload = global.get(msg.topic);\n\nif (typeof msg.payload != 'number'){\n    global.set(msg.topic,0);\n    msg.payload = 0;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 800,
+        "wires": [
+            [
+                "487c3e6f1cd2d2db"
+            ]
+        ]
+    },
+    {
+        "id": "82e4ed2b4b7215c3",
+        "type": "switch",
+        "z": "e45b55d4efe82066",
+        "name": "MLT Notifications Not Enabled?",
+        "property": "mlt_notifications",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 580,
+        "wires": [
+            [
+                "8bd0347b0211c2f9"
+            ]
+        ]
+    },
+    {
+        "id": "6bb53f86504adccd",
+        "type": "ui_button",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "group": "e42d20a10f8110d3",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Show Settings",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Settings",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1400,
+        "y": 80,
+        "wires": [
+            [
+                "59d3a45227183f4a"
+            ]
+        ]
+    },
+    {
+        "id": "59d3a45227183f4a",
+        "type": "ui_ui_control",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "events": "all",
+        "x": 1620,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa3b39206e3c75d3",
+        "type": "ui_button",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "group": "f06baafe10c5b26b",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Return to Home",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Home",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1400,
+        "y": 140,
+        "wires": [
+            [
+                "59d3a45227183f4a"
+            ]
+        ]
+    },
+    {
+        "id": "ee485bc4d63ee4e2",
+        "type": "ui_button",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "group": "e42d20a10f8110d3",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Snooze Notifications 5 Min",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "global_notifications_snooze",
+        "topicType": "str",
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "3faa9c16b7b1f5be"
+            ]
+        ]
+    },
+    {
+        "id": "3faa9c16b7b1f5be",
+        "type": "link out",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "5238a32c21476b2e",
+            "47975538f967a1db"
+        ],
+        "x": 775,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ef37dd1260f254e7",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value: On",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "f42960ddc0c6c43b",
+                "652d05d5463062b0"
+            ]
+        ]
+    },
+    {
+        "id": "14e7511c972d322f",
+        "type": "ui_button",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "group": "e42d20a10f8110d3",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear Target Temp",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 580,
+        "wires": [
+            [
+                "9dc951f8fe6972f4"
+            ]
+        ]
+    },
+    {
+        "id": "9dc951f8fe6972f4",
+        "type": "change",
+        "z": "e45b55d4efe82066",
+        "name": "make undefined",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "undefined",
+                "tot": "env"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 560,
+        "wires": [
+            [
+                "8a2cc5de0d0d9863"
+            ]
+        ]
+    },
+    {
+        "id": "e142d028a1981678",
+        "type": "ui_button",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "group": "e42d20a10f8110d3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear Target Temp",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 420,
+        "wires": [
+            [
+                "0333e0b6189def21"
+            ]
+        ]
+    },
+    {
+        "id": "0333e0b6189def21",
+        "type": "change",
+        "z": "e45b55d4efe82066",
+        "name": "make undefined",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "undefined",
+                "tot": "env"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "12c46a0971772c2f"
+            ]
+        ]
+    },
+    {
+        "id": "8fa170bab37ab98b",
+        "type": "ui_numeric",
+        "z": "e45b55d4efe82066",
+        "name": "BK Temp Threshold",
+        "label": "Notification Threshold (°F)",
+        "tooltip": "",
+        "group": "a8a01b1f49d0609f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "bk_temp_threshold",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "20",
+        "step": 1,
+        "className": "",
+        "x": 590,
+        "y": 680,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "a1b05a2882103a8a",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Initiate Var if Needed",
+        "func": "msg.payload = global.get(msg.topic);\n\nif (typeof msg.payload != 'number'){\n    global.set(msg.topic,5);\n    msg.payload = 5;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 680,
+        "wires": [
+            [
+                "8fa170bab37ab98b"
+            ]
+        ]
+    },
+    {
+        "id": "8b82085f38ed1e20",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "bk_temp_threshold",
+        "x": 170,
+        "y": 680,
+        "wires": [
+            [
+                "a1b05a2882103a8a"
+            ]
+        ]
+    },
+    {
+        "id": "4546315a9ed1c73e",
+        "type": "inject",
+        "z": "e45b55d4efe82066",
+        "name": "Set Default value",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "mlt_temp_threshold",
+        "x": 170,
+        "y": 720,
+        "wires": [
+            [
+                "fc6b4b8f453cf663"
+            ]
+        ]
+    },
+    {
+        "id": "fc6b4b8f453cf663",
+        "type": "function",
+        "z": "e45b55d4efe82066",
+        "name": "Initiate Var if Needed",
+        "func": "msg.payload = global.get(msg.topic);\n\nif (typeof msg.payload != 'number'){\n    global.set(msg.topic,2);\n    msg.payload = 2;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 720,
+        "wires": [
+            [
+                "95f0fa279ce07aa2"
+            ]
+        ]
+    },
+    {
+        "id": "95f0fa279ce07aa2",
+        "type": "ui_numeric",
+        "z": "e45b55d4efe82066",
+        "name": "MLT Temp Threshold",
+        "label": "Notification Threshold (°F)",
+        "tooltip": "",
+        "group": "5136de54abde4a74",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "mlt_temp_threshold",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "20",
+        "step": 1,
+        "className": "",
+        "x": 600,
+        "y": 720,
+        "wires": [
+            [
+                "0aa3ff4428ac73fa"
+            ]
+        ]
+    },
+    {
+        "id": "953ebe0f8720328b",
+        "type": "ui_template",
+        "z": "e45b55d4efe82066",
+        "group": "e42d20a10f8110d3",
+        "name": "BK Title",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<h3>Brew Kettle</h3>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1620,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "23b358a2cd34f86c",
+        "type": "ui_template",
+        "z": "e45b55d4efe82066",
+        "group": "e42d20a10f8110d3",
+        "name": "MLT Title",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<h3>Mash Lauter Tun</h3>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1620,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ba746125a8e6c0c1",
+        "type": "ui_template",
+        "z": "e45b55d4efe82066",
+        "group": "e42d20a10f8110d3",
+        "name": "Global Title",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<h3>Global</h3>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1630,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "830166e8277968c7",
+        "type": "link out",
+        "z": "e45b55d4efe82066",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "5118f5454cc6cb89",
+            "6e785f9e5e60e292"
+        ],
+        "x": 1355,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "0824aa012a43a13f",
+        "type": "switch",
+        "z": "e45b55d4efe82066",
+        "name": "BK Notifications Not Enabled?",
+        "property": "bk_notifications",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 540,
+        "wires": [
+            [
+                "195d15623454c8a8"
+            ]
+        ]
+    },
+    {
+        "id": "195d15623454c8a8",
+        "type": "change",
+        "z": "e45b55d4efe82066",
+        "name": "Add Warning Text",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Kettle temp target set though notifications are disabled",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Warning: Kettle Notifications Disabled",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1190,
+        "y": 540,
+        "wires": [
+            [
+                "830166e8277968c7"
+            ]
+        ]
+    },
+    {
+        "id": "8bd0347b0211c2f9",
+        "type": "change",
+        "z": "e45b55d4efe82066",
+        "name": "Add Warning Text",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Mash Tun temp target set though notifications are disabled",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Warning: Mash Tun Notifications Disabled",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1190,
+        "y": 580,
+        "wires": [
+            [
+                "830166e8277968c7"
+            ]
+        ]
+    },
+    {
+        "id": "4136c88fc07c2bc5",
+        "type": "ui_gauge",
+        "z": "bec9915179276547",
+        "name": "MLT Temp",
+        "group": "adda516565437f02",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "F",
+        "format": "{{value}}°",
+        "min": 0,
+        "max": "212",
+        "colors": [
+            "#e4f500",
+            "#00b500",
+            "#e4f500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 650,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "9868ef095adc4ff8",
+        "type": "link in",
+        "z": "bec9915179276547",
+        "name": "",
+        "links": [
+            "f9a4622c621f4596",
+            "2f598e7ff0290b97"
+        ],
+        "x": 275,
+        "y": 240,
+        "wires": [
+            [
+                "dafc515c96c20fea"
+            ]
+        ]
+    },
+    {
+        "id": "599f30760a448db9",
+        "type": "switch",
+        "z": "bec9915179276547",
+        "name": "MLT enabled?",
+        "property": "mlt_enabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "4136c88fc07c2bc5"
+            ],
+            [
+                "dafc515c96c20fea"
+            ]
+        ]
+    },
+    {
+        "id": "7d0ad61ef26f49e2",
+        "type": "link in",
+        "z": "bec9915179276547",
+        "name": "",
+        "links": [
+            "17e0b229c24b9601",
+            "6826e7fe1b4d30a1"
+        ],
+        "x": 555,
+        "y": 180,
+        "wires": [
+            [
+                "4136c88fc07c2bc5"
+            ]
+        ]
+    },
+    {
+        "id": "dafc515c96c20fea",
+        "type": "change",
+        "z": "bec9915179276547",
+        "name": "Set Temp to 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "4136c88fc07c2bc5"
+            ]
+        ]
+    },
+    {
+        "id": "a21dc6dadb909ba4",
+        "type": "ui_gauge",
+        "z": "bec9915179276547",
+        "name": "BK Temp",
+        "group": "3894c72c1c70a5c4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "F",
+        "format": "{{value}}°",
+        "min": 0,
+        "max": "212",
+        "colors": [
+            "#e4f500",
+            "#00b500",
+            "#e4f500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 640,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "73b18a1e3bb39b2e",
+        "type": "link in",
+        "z": "bec9915179276547",
+        "name": "",
+        "links": [
+            "5b66befaa815732f",
+            "aaecdfd963dbdf5e"
+        ],
+        "x": 555,
+        "y": 100,
+        "wires": [
+            [
+                "a21dc6dadb909ba4"
+            ]
+        ]
+    },
+    {
+        "id": "3ef18e16fe126ccd",
+        "type": "link in",
+        "z": "bec9915179276547",
+        "name": "",
+        "links": [
+            "b5d0f5c66c2ef6df"
+        ],
+        "x": 75,
+        "y": 180,
+        "wires": [
+            [
+                "5e01d8cd287dc340"
+            ]
+        ]
+    },
+    {
+        "id": "5e01d8cd287dc340",
+        "type": "switch",
+        "z": "bec9915179276547",
+        "name": "BK/MLT",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "bk",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "mlt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "e7165a1325c67ccf"
+            ],
+            [
+                "599f30760a448db9"
+            ]
+        ]
+    },
+    {
+        "id": "e7165a1325c67ccf",
+        "type": "switch",
+        "z": "bec9915179276547",
+        "name": "BK enabled?",
+        "property": "bk_enabled",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "a21dc6dadb909ba4"
+            ],
+            [
+                "4415039247c7f7f0"
+            ]
+        ]
+    },
+    {
+        "id": "4415039247c7f7f0",
+        "type": "change",
+        "z": "bec9915179276547",
+        "name": "Set Temp to 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 140,
+        "wires": [
+            [
+                "a21dc6dadb909ba4"
+            ]
+        ]
+    },
+    {
+        "id": "ab74d5bfd0da635a",
+        "type": "link in",
+        "z": "bec9915179276547",
+        "name": "",
+        "links": [
+            "b0b4fa97444c0e26"
+        ],
+        "x": 275,
+        "y": 140,
+        "wires": [
+            [
+                "4415039247c7f7f0"
+            ]
+        ]
+    },
+    {
+        "id": "adc766f2149b1693",
+        "type": "ui_chart",
+        "z": "bec9915179276547",
+        "name": "MLT Chart",
+        "group": "adda516565437f02",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "Turn on to see graph",
+        "dot": false,
+        "ymin": "44",
+        "ymax": "220",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#e35454",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1330,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d47385013187a0ea",
+        "type": "change",
+        "z": "bec9915179276547",
+        "name": "Set Target Temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(topic&'_temp_target')",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Target",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 280,
+        "wires": [
+            [
+                "adc766f2149b1693"
+            ]
+        ]
+    },
+    {
+        "id": "b85278e68c1ecdd7",
+        "type": "ui_button",
+        "z": "bec9915179276547",
+        "name": "MLT Clear Graph",
+        "group": "e42d20a10f8110d3",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear Graph",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1150,
+        "y": 200,
+        "wires": [
+            [
+                "adc766f2149b1693"
+            ]
+        ]
+    },
+    {
+        "id": "e513ac85b4dfcb06",
+        "type": "change",
+        "z": "bec9915179276547",
+        "name": "Update Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Current",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 240,
+        "wires": [
+            [
+                "adc766f2149b1693"
+            ]
+        ]
+    },
+    {
+        "id": "9923d4ed77e15775",
+        "type": "link in",
+        "z": "bec9915179276547",
+        "name": "",
+        "links": [
+            "b5d0f5c66c2ef6df"
+        ],
+        "x": 815,
+        "y": 180,
+        "wires": [
+            [
+                "d1754a927704ae84"
+            ]
+        ]
+    },
+    {
+        "id": "751addcfce401ab2",
+        "type": "change",
+        "z": "bec9915179276547",
+        "name": "Update Topic",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Current",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 100,
+        "wires": [
+            [
+                "ae3e0f7d5160d982"
+            ]
+        ]
+    },
+    {
+        "id": "466c682ca64aaf2f",
+        "type": "change",
+        "z": "bec9915179276547",
+        "name": "Set Target Temp",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$globalContext(topic&'_temp_target')",
+                "tot": "jsonata"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Target",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1140,
+        "y": 140,
+        "wires": [
+            [
+                "ae3e0f7d5160d982"
+            ]
+        ]
+    },
+    {
+        "id": "ae3e0f7d5160d982",
+        "type": "ui_chart",
+        "z": "bec9915179276547",
+        "name": "BK Chart",
+        "group": "3894c72c1c70a5c4",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "Turn on to see graph",
+        "dot": false,
+        "ymin": "44",
+        "ymax": "220",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#e35454",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1320,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee118fb95f7167f0",
+        "type": "ui_button",
+        "z": "bec9915179276547",
+        "name": "BK Clear Graph",
+        "group": "e42d20a10f8110d3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Clear Graph",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1140,
+        "y": 60,
+        "wires": [
+            [
+                "ae3e0f7d5160d982"
+            ]
+        ]
+    },
+    {
+        "id": "405090d0cba1400e",
+        "type": "comment",
+        "z": "bec9915179276547",
+        "name": "Gauge Logic/UI",
+        "info": "",
+        "x": 160,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "fef0d8a5ae75d8a9",
+        "type": "comment",
+        "z": "bec9915179276547",
+        "name": "Chart Logic/UI",
+        "info": "",
+        "x": 900,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "d1754a927704ae84",
+        "type": "switch",
+        "z": "bec9915179276547",
+        "name": "BK/MLT",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "bk",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "mlt",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 920,
+        "y": 180,
+        "wires": [
+            [
+                "751addcfce401ab2",
+                "466c682ca64aaf2f"
+            ],
+            [
+                "e513ac85b4dfcb06",
+                "d47385013187a0ea"
+            ]
+        ]
+    },
+    {
+        "id": "2da8aaeaabe5bbac",
+        "type": "ui_toast",
+        "z": "4227215c53f7bfbd",
+        "position": "dialog",
+        "displayTime": "20",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "Snooze Notifications",
+        "cancel": "OK",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Temp Reached!",
+        "x": 900,
+        "y": 240,
+        "wires": [
+            [
+                "8008468bc2ce356f"
+            ]
+        ]
+    },
+    {
+        "id": "7f43bf06b7ae7c77",
+        "type": "delay",
+        "z": "4227215c53f7bfbd",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 220,
+        "wires": [
+            [
+                "4c83fa4cca6d2d9b",
+                "df7d755a0b6228b6"
+            ]
+        ]
+    },
+    {
+        "id": "542d465259983779",
+        "type": "link in",
+        "z": "4227215c53f7bfbd",
+        "name": "Primary In",
+        "links": [
+            "abd3cadfe5443838"
+        ],
+        "x": 115,
+        "y": 220,
+        "wires": [
+            [
+                "be6a1045d1dddb71"
+            ]
+        ]
+    },
+    {
+        "id": "6371c6352b61bc5c",
+        "type": "http request",
+        "z": "4227215c53f7bfbd",
+        "name": "HA API Call Notify Service",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://192.168.1.20:55555/api/services/notify/adiphone",
+        "tls": "271b60bfccf532fb",
+        "persist": true,
+        "proxy": "",
+        "authType": "bearer",
+        "senderr": false,
+        "x": 970,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07302f7bd43b4755",
+        "type": "comment",
+        "z": "4227215c53f7bfbd",
+        "name": "Todo: refine function to reduce duplicate code",
+        "info": "",
+        "x": 790,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "20c44f358f3074ad",
+        "type": "link in",
+        "z": "4227215c53f7bfbd",
+        "name": "Error",
+        "links": [
+            "978695298821ca4c"
+        ],
+        "x": 115,
+        "y": 380,
+        "wires": [
+            [
+                "9ce0b9216fcc4cd9"
+            ]
+        ]
+    },
+    {
+        "id": "55cbc866b40ee146",
+        "type": "comment",
+        "z": "4227215c53f7bfbd",
+        "name": "Errors",
+        "info": "",
+        "x": 150,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "be6a1045d1dddb71",
+        "type": "function",
+        "z": "4227215c53f7bfbd",
+        "name": "Gate Logic",
+        "func": "if (global.get('global_notifications_snooze')){\n    return null;\n}\n\nconst notify_enabled = global.get(msg.topic+'_notifications');\nconst temp_target = global.get(msg.topic+'_temp_target');\n\nif (!notify_enabled || typeof temp_target != 'number') {\n    return null;\n    // do nothing\n}\n\nvar temp_threshold = global.get(msg.topic+'_temp_threshold');\n\nif (typeof temp_threshold != 'number'){\n    temp_threshold = 0;\n}\n\nif (msg.topic == 'bk') {\n    if (msg.payload >= (temp_target-temp_threshold)){\n    return msg;\n    }\n} else if (msg.topic == 'mlt') {\n    if (Math.abs(msg.payload - temp_target) >= temp_threshold){\n    return msg;\n    }\n}\n\n\n\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 220,
+        "wires": [
+            [
+                "7f43bf06b7ae7c77"
+            ]
+        ]
+    },
+    {
+        "id": "47975538f967a1db",
+        "type": "link in",
+        "z": "4227215c53f7bfbd",
+        "name": "Global Snooze",
+        "links": [
+            "3faa9c16b7b1f5be"
+        ],
+        "x": 855,
+        "y": 380,
+        "wires": [
+            [
+                "9de699fde225733a"
+            ]
+        ]
+    },
+    {
+        "id": "5652c637deab1cd7",
+        "type": "stoptimer",
+        "z": "4227215c53f7bfbd",
+        "duration": "5",
+        "units": "Minute",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 1220,
+        "y": 380,
+        "wires": [
+            [
+                "02e05b8c25c839bd"
+            ],
+            [
+                "02e05b8c25c839bd"
+            ]
+        ]
+    },
+    {
+        "id": "02e05b8c25c839bd",
+        "type": "change",
+        "z": "4227215c53f7bfbd",
+        "name": "Disable Snooze",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 440,
+        "wires": [
+            [
+                "aa4080d0e29a5a85"
+            ]
+        ]
+    },
+    {
+        "id": "aa4080d0e29a5a85",
+        "type": "function",
+        "z": "4227215c53f7bfbd",
+        "name": "Save vars",
+        "func": "global.set(msg.topic,msg.payload);\nreturn null;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f1e9d1c767bde032",
+        "type": "change",
+        "z": "4227215c53f7bfbd",
+        "name": "Stop Timer",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "stop",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 440,
+        "wires": [
+            [
+                "5652c637deab1cd7"
+            ]
+        ]
+    },
+    {
+        "id": "9de699fde225733a",
+        "type": "function",
+        "z": "4227215c53f7bfbd",
+        "name": "Gate Logic",
+        "func": "if (msg.payload == 'Snooze Notifications'){\n    return [msg,null];\n} else if (msg.payload == 'OK'){\n    return [null,msg];\n}\n\nif (global.get(msg.topic)){\n    msg.payload == false;\n    return [null,msg];\n}\n\nreturn [msg,null];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 380,
+        "wires": [
+            [
+                "5652c637deab1cd7",
+                "aa4080d0e29a5a85"
+            ],
+            [
+                "f1e9d1c767bde032"
+            ]
+        ]
+    },
+    {
+        "id": "0fdbb753334becfb",
+        "type": "comment",
+        "z": "4227215c53f7bfbd",
+        "name": "Global Snooze",
+        "info": "",
+        "x": 920,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8008468bc2ce356f",
+        "type": "change",
+        "z": "4227215c53f7bfbd",
+        "name": "Snooze Trigger",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "global_notifications_snooze",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 240,
+        "wires": [
+            [
+                "9de699fde225733a"
+            ]
+        ]
+    },
+    {
+        "id": "4aa3259183332b52",
+        "type": "ui_toast",
+        "z": "4227215c53f7bfbd",
+        "position": "dialog",
+        "displayTime": "20",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Sensor Issue",
+        "x": 450,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ce0b9216fcc4cd9",
+        "type": "delay",
+        "z": "4227215c53f7bfbd",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "4aa3259183332b52",
+                "a79826153c026249"
+            ]
+        ]
+    },
+    {
+        "id": "6e785f9e5e60e292",
+        "type": "link in",
+        "z": "4227215c53f7bfbd",
+        "name": "",
+        "links": [
+            "830166e8277968c7"
+        ],
+        "x": 115,
+        "y": 500,
+        "wires": [
+            [
+                "f45b8d713398a8e6"
+            ]
+        ]
+    },
+    {
+        "id": "c52208f3786badf2",
+        "type": "ui_toast",
+        "z": "4227215c53f7bfbd",
+        "position": "bottom left",
+        "displayTime": "20",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Notification Warning",
+        "x": 480,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f45b8d713398a8e6",
+        "type": "delay",
+        "z": "4227215c53f7bfbd",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "c52208f3786badf2",
+                "a79826153c026249"
+            ]
+        ]
+    },
+    {
+        "id": "86f79322dccf224b",
+        "type": "comment",
+        "z": "4227215c53f7bfbd",
+        "name": "Warnings",
+        "info": "",
+        "x": 160,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "4c83fa4cca6d2d9b",
+        "type": "function",
+        "z": "4227215c53f7bfbd",
+        "name": "Format Request",
+        "func": "var friendly_name;\n\nif (msg.topic == 'bk') {\n    friendly_name = 'Brew Kettle Temp Reached';\n} else if (msg.topic == 'mlt') {\n    friendly_name = 'Mash Tun Temp Threshold Warning';\n} else {\n    return null;\n}\n\nvar data = {\n    'title': friendly_name,\n    'message': 'Current: ' + msg.payload +'°F\\nTarget:   '+ global.get(msg.topic+'_temp_target')+'°F'\n}\n\nmsg.payload = JSON.stringify(data);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 160,
+        "wires": [
+            [
+                "6371c6352b61bc5c"
+            ]
+        ]
+    },
+    {
+        "id": "df7d755a0b6228b6",
+        "type": "function",
+        "z": "4227215c53f7bfbd",
+        "name": "Format Request",
+        "func": "var friendly_name;\n\nif (msg.topic == 'bk') {\n    friendly_name = 'Brew Kettle Temp Reached';\n} else if (msg.topic == 'mlt') {\n    friendly_name = 'Mash Tun Temp Threshold Warning';\n} else {\n    return null;\n}\n\n\nmsg.payload = 'Current: ' + msg.payload +'°F\\nTarget:   '+ global.get(msg.topic+'_temp_target')+'°F';\nmsg.topic = friendly_name;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 240,
+        "wires": [
+            [
+                "2da8aaeaabe5bbac"
+            ]
+        ]
+    },
+    {
+        "id": "a79826153c026249",
+        "type": "function",
+        "z": "4227215c53f7bfbd",
+        "name": "Format Request",
+        "func": "var data = {\n    'title': msg.topic,\n    'message': msg.payload\n}\n\nmsg.payload = JSON.stringify(data);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 440,
+        "wires": [
+            [
+                "6371c6352b61bc5c"
+            ]
+        ]
+    },
+    {
+        "id": "6282012c44b45892",
+        "type": "switch",
+        "z": "778702b6ac07d38e",
+        "name": "logging enabled?",
+        "property": "$globalContext(topic&'_logging')",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "a47925ceedc5ae69"
+            ]
+        ]
+    },
+    {
+        "id": "0c496f3499583176",
+        "type": "link in",
+        "z": "778702b6ac07d38e",
+        "name": "",
+        "links": [
+            "7cb980d83e52e86d"
+        ],
+        "x": 115,
+        "y": 140,
+        "wires": [
+            [
+                "6282012c44b45892"
+            ]
+        ]
+    },
+    {
+        "id": "f050acd90689b423",
+        "type": "http request",
+        "z": "778702b6ac07d38e",
+        "name": "HA API Set State",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://192.168.1.20:55555/api/states/sensor.raspi_brew_{{topic}}_temp",
+        "tls": "271b60bfccf532fb",
+        "persist": true,
+        "proxy": "",
+        "authType": "bearer",
+        "senderr": false,
+        "x": 990,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "becb21c838c023a2",
+        "type": "change",
+        "z": "778702b6ac07d38e",
+        "name": "[OLD] Format Request",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"state\": $.payload,\t \"attributes\":{\t   \"device_class\": \"temperature\",\t   \"state_class\": \"measurement\",\t   \"unit_of_measurement\": \"°F\",\t   \"friendly_name\": \"Brew Kettle Temp\"\t }\t}",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a47925ceedc5ae69",
+        "type": "delay",
+        "z": "778702b6ac07d38e",
+        "name": "",
+        "pauseType": "timed",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "30",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 140,
+        "wires": [
+            [
+                "93bad13b937b6d60"
+            ]
+        ]
+    },
+    {
+        "id": "93bad13b937b6d60",
+        "type": "function",
+        "z": "778702b6ac07d38e",
+        "name": "Format Request",
+        "func": "var friendly_name;\n\nif (msg.topic == 'bk') {\n    friendly_name = 'Brew Kettle Temp';\n} else if (msg.topic == 'mlt') {\n    friendly_name = 'Mash Lauter Tun Temp';\n} else {\n    return null;\n}\n\nvar data = {\n    'state' : msg.payload,\n    'attributes':{\n        'device_class': 'temperature',\n        'state_class': 'measurement',\n        'unit_of_measurement': '°F',\n        'friendly_name': friendly_name\n    }\n}\n\nmsg.payload = JSON.stringify(data);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 140,
+        "wires": [
+            [
+                "f050acd90689b423"
+            ]
+        ]
+    }
+]

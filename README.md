@@ -1,7 +1,6 @@
-kettle_controller
+brew_assistant
 =================
 
 ### About
 
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
+A Node-RED Project designed to be a brewer assistant. For now this monitors temps during brew day, displays on a dashboard, and notifies me via Home Assistant when temperatures have been reached. At some point, I'll add actuator support and more info on the project.

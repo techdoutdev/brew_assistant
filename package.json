@@ -1,7 +1,7 @@
 {
-    "name": "kettle_controller",
-    "description": "A Node-RED Project",
-    "version": "0.0.1",
+    "name": "brew_assistant",
+    "description": "A Node-RED Project designed to be a brewer assistant.",
+    "version": "0.1.0",
     "dependencies": {},
     "node-red": {
         "settings": {
