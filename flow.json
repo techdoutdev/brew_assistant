@@ -722,9 +722,9 @@
         "id": "fdd3a3897c759a39",
         "type": "comment",
         "z": "9e8c78722d3d5311",
-        "name": "Preliminary GPIO reset logic",
-        "info": "",
-        "x": 400,
+        "name": "Preliminary GPIO reset logic - currently not used",
+        "info": "Could be used to reset sensors at some point. Currently not being used.",
+        "x": 460,
         "y": 680,
         "wires": []
     },
@@ -3169,31 +3169,6 @@
         "senderr": false,
         "x": 990,
         "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "becb21c838c023a2",
-        "type": "change",
-        "z": "778702b6ac07d38e",
-        "name": "[OLD] Format Request",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "{\"state\": $.payload,\t \"attributes\":{\t   \"device_class\": \"temperature\",\t   \"state_class\": \"measurement\",\t   \"unit_of_measurement\": \"°F\",\t   \"friendly_name\": \"Brew Kettle Temp\"\t }\t}",
-                "tot": "jsonata"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 740,
-        "y": 360,
         "wires": [
             []
         ]
